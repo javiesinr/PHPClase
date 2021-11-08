@@ -12,7 +12,7 @@ for ($inicio=0; $inicio < 5; $inicio++) {
         print "Vamos por la interacción inicio2: ".$inicio2."<br>";
 
     }
-
+brrr
 
 
 
