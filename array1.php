@@ -12,7 +12,6 @@ for ($inicio=0; $inicio < 5; $inicio++) {
         print "Vamos por la interacción inicio2: ".$inicio2."<br>";
 
     }
-brrr
 
 
 
@@ -114,6 +113,30 @@ $copiaCapitales=$capitales;
 $copiaCapitales ["Andalucia"]="Cordoba";
 print_r($copiaCapitales);
 echo "<br>";
+
+
+
+//Clase de viernes
+
+
+
+$colores1=["Verde","Azul","Amarillo","Rojooo"];
+$colores2=["Verde","Azul","Amarillo","Rojooo","Blanco"];
+echo "<br>";
+
+$resultadoDiferencia= array_diff($colores2,$colores1);
+$resultadoUnion=array_merge ($colores2,$colores1);
+$resultadoInterseccion= array_intersect($colores2,$colores1);
+$ordenarArray=sort($colores2,SORT_NATURAL);
+$acumulador=array("Purpura,Marron,Celeste");
+print_r ($resultadoDiferencia);
+echo "<br>";
+print_r ($resultadoUnion);
+echo "<br>";
+print_r ($resultadoInterseccion);
+echo "<br>";
+print_r($ordenarArray);
+
 
 /*
 #Array Normales
