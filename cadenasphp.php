@@ -12,9 +12,32 @@ function Cuenta_caractere($text1){
 
 }
 
-function Cuentas_palabras($text1){
+function Cuenta_palabras($text1){
     
     $res=str_word_count($text1);
 
     print "el resultado es ".$res."<br>";
 }
+ function Inviertetexto($text1){
+    $res=strrev($text1);
+    print "el resultado es".$res."<br>"."<br>";
+
+ }
+function Busqueda($text1,$text2){
+    
+    $res=strpos($text1,$text2);
+    if ($res==True) {
+        print "La palabra se encuentra en  el texto";
+    }
+
+        else {
+            print "La palabra no esta en el texto";
+        }
+    
+}
+
+//Ahora vendrian los function 
+    
+
+
+
