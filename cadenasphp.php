@@ -31,7 +31,7 @@ function Busqueda($text1,$text2){
     }
 
         else {
-            print "La palabra no esta en el texto";
+            print "La palabra no se encuentra en el texto";
         }
     
 }
@@ -51,12 +51,12 @@ switch ($selector){
             case  'Busqueda':
                 Busqueda($texto1,$texto2);
                 break;
-            case 'Remplazapalabra':
+            case 'Remplazarpalabra':
                 Remplazarpalabra($texto3,$texto2,$texto1);
                 break;
            
             default:
-            echo "operacion incorrecta";
+            echo "operacion erronea";
             break;
 
     }
