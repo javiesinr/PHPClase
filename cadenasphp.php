@@ -4,28 +4,28 @@ $text2=$_GET["operador2"];
 $text3=$_GET["operador3"];
 $selector=$_GET["cadenas"];
 //creacion de variables.
-function Cuenta_caractere($text1){
+function Cuenta_caractere($texto1){
 
-    $res=strlen($text1);
+    $res=strlen($texto1);
 
     print "El resultado es ".$res."<br>";
 
 }
 
-function Cuenta_palabras($text1){
+function Cuenta_palabras($texto1){
     
-    $res=str_word_count($text1);
+    $res=str_word_count($texto1);
 
     print "el resultado es ".$res."<br>";
 }
- function Inviertetexto($text1){
+ function Inviertetexto($texto1){
     $res=strrev($text1);
     print "el resultado es".$res."<br>"."<br>";
 
  }
-function Busqueda($text1,$text2){
+function Busqueda($texto1,$texto2){
     
-    $res=strpos($text1,$text2);
+    $res=strpos($texto1,$texto2);
     if ($res==True) {
         print "La palabra se encuentra en  el texto";
     }
