@@ -45,13 +45,13 @@ switch ($selector){
             case 'Cuentas_palabras':
                 Cuenta_palabras($texto1);
                 break;
-            case 'Invierte_el_texto':
+            case 'Inviertetexto':
                 Inviertetexto($texto1,$texto2,$texto3);
                 break;   
             case  'Busqueda':
                 Busqueda($texto1,$texto2);
                 break;
-            case 'Remplazar_palabra':
+            case 'Remplazapalabra':
                 Remplazarpalabra($texto3,$texto2,$texto1);
                 break;
            
