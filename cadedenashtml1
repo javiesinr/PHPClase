@@ -13,3 +13,15 @@
 <label>escribe aqui</label> <input type="Text" name="operador1"> 
 <label>escribe aqui</label><input type="Text" name="operador2"> 
 <label>escribe aqui</label><input type="tex 
+<select name="cadenas">
+    <option value="Cuenta_caracteres">Cuentascaracteres</option> 
+    <option value="Cuenta_palabras">Cuentaspalabras</option>
+    <option value="Inviertetexto">Inviertetexto</option>
+    <option value="Busqueda">Busqueda</option>
+    <option value="Remplazarpalabra">Remplazapalabra</option>
+</select>
+<label><input type="submit" value="Enviar consulta"/></label>
+</fieldset>
+</form>
+</body>
+</html>
