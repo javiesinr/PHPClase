@@ -38,6 +38,28 @@ function Busqueda($text1,$text2){
 
 //Ahora vendrian los function 
     
+switch ($selector){
+        case 'Cuentas_caracteres':
+            Cuentas_caracteres ($texto1);
+            break;
+            case 'Cuentas_palabras':
+                Cuenta_palabras($texto1);
+                break;
+            case 'Invierte_el_texto':
+                Inviertetexto($texto1,$texto2,$texto3);
+                break;   
+            case  'Busqueda':
+                Busqueda($texto1,$texto2);
+                break;
+            case 'Remplazar_palabra':
+                Remplazarpalabra($texto3,$texto2,$texto1);
+                break;
+           
+            default:
+            echo "operacion incorrecta";
+            break;
 
+    }
+?>
 
 
