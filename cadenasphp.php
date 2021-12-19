@@ -20,7 +20,7 @@ function Cuenta_palabras($texto1){
 }
  function Inviertetexto($texto1){
     $res=strrev($text1);
-    print "el resultado es".$res."<br>"."<br>";
+    print "el resultado es".$res."<br>";
 
  }
 function Busqueda($texto1,$texto2){
